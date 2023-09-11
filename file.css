@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0 10 24);
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.container {
+    display: flow-root;
+    margin: auto;
+    width: 60%;
+}
+
+.navBar {
+    float: left;
+    width: 22%;
+}
+.hourSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 31px;
+
+}
+
+.name {
+    background-color: #9569e3;
+    height: 287px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -15px;
+}
+
+.name img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.name p {
+    color: gainsboro;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    text-transform: capitalize;
+    background-color: #171e44;
+    border-radius: 10px;
+}
+
+.information img {
+    width: 174px;
+    border-radius: 10px;
+    height: 87px;
+}
+
+.small {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    background-color: #171e44;
+    border-radius: 10px;
+    position: relative;
+    top: -73px;
+    font-size: 0.8rem;
+    color: gray;
+    padding: 10px;
+    padding-left: 12px;
+}
+
+.small p:first-of-type {
+    color: white;
+    text-transform: capitalize;
+}
+
+.daily,.weekly,.yearly {
+    cursor: pointer;
+}
+
+@media screen and (max-width :800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navBar {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
